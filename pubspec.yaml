@@ -1,0 +1,44 @@
+name: thai_hotline_app
+description: "แอปพลิเคชันรวมเบอร์สายด่วนประเทศไทย สำหรับการเดินทาง อุบัติเหตุ ธนาคาร และสาธารณูปโภค"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # --- Packages หลัก ---
+  google_fonts: ^8.0.2
+  font_awesome_flutter: ^10.12.0
+  url_launcher: ^6.3.2
+  introduction_screen: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  # ใช้ตัวเดียวเพื่อป้องกันความสับสน
+  flutter_launcher_icons: ^0.14.4
+
+# การตั้งค่าสำหรับสร้าง App Icon
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/iconapp.png"
+  adaptive_icon_background: "#1A237E"
+  adaptive_icon_foreground: "assets/icon/iconapp.png"
+
+flutter:
+  uses-material-design: true
+
+  # --- การลงทะเบียนไฟล์รูปภาพ (Assets) ---
+  assets:
+    - assets/images/
+    - assets/icon/
+    - assets/images/subA_pic.png
+    - assets/images/subB_pic.png
+    - assets/images/subC_pic.png
+    - assets/images/subD_pic.png
