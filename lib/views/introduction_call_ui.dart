@@ -27,25 +27,24 @@ class _IntroductionCallUIState extends State<IntroductionCallUI> {
           globalBackgroundColor: Colors.transparent,
           pages: [
             _buildPage(
-              title: "สะดวกทุกการเดินทาง",
-              body:
-                  "รวมเบอร์โทรหน่วยงานคมนาคม เช็กจราจร หรือเหตุด่วนบนทางหลวงได้ทันที",
+              title: "Easy travel for everyone",
+              body: "รวมเบอร์โทรหน่วยงานคมนาคม หรือเหตุด่วนบนทางหลวงได้ทันที",
               imagePath: 'assets/images/subA_pic.png',
             ),
             _buildPage(
-              title: "อุ่นใจเมื่อเกิดเหตุฉุกเฉิน",
+              title: "Peace of mind during emergencies",
               body:
-                  "แจ้งเหตุด่วนเหตุร้าย ไฟไหม้ หรือกู้ชีพฉุกเฉิน 24 ชั่วโมง เพื่อความปลอดภัยของคุณ",
+                  "แจ้งเหตุด่วนเหตุร้าย ไฟไหม้ หรือกู้ชีพฉุกเฉิน 24 ชั่วโมง เพื่อความปลอดภัย",
               imagePath: 'assets/images/subB_pic.png',
             ),
             _buildPage(
-              title: "จัดการเรื่องเงินได้รวดเร็ว",
+              title: "Manage your finances quickly",
               body:
                   "เบอร์ติดต่อธนาคารชั้นนำ และบริการทางการเงินที่คุณต้องการในที่เดียว",
               imagePath: 'assets/images/subC_pic.png',
             ),
             _buildPage(
-              title: "ครบเครื่องเรื่องบริการรัฐ",
+              title: "Complete government services",
               body:
                   "สาธารณูปโภคครบครัน ต่อสายตรงถึงเจ้าหน้าที่ได้ทันที ไม่ต้องเสียเวลาโทรหาหลายหน่วยงาน",
               imagePath: 'assets/images/subD_pic.png',
